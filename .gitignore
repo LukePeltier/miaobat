@@ -1,11 +1,21 @@
-# Compiled binary
-read_battery
+
+# Created by https://www.toptal.com/developers/gitignore/api/c
+# Edit at https://www.toptal.com/developers/gitignore?templates=c
+
+### C ###
+# Prerequisites
+*.d
 
 # Object files
 *.o
 *.ko
 *.obj
 *.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
 
 # Precompiled Headers
 *.gch
@@ -17,40 +27,37 @@ read_battery
 *.la
 *.lo
 
-# Shared objects
+# Shared objects (inc. Windows DLLs)
+*.dll
 *.so
 *.so.*
 *.dylib
-*.dll
 
-# Build outputs
-build/
-dist/
-out/
-
-# IDE and editor files
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
-
-# Operating system files
-.DS_Store
-Thumbs.db
-desktop.ini
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
 
 # Debug files
 *.dSYM/
 *.su
 *.idb
 *.pdb
-core
 
-# Temporary files
-*.tmp
-*.temp
-.cache/
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
 
-# Logs
-*.log
+# End of https://www.toptal.com/developers/gitignore/api/c
+
+# Custom
+# Compiled binary
+read_battery
