@@ -1,4 +1,4 @@
-# Angry Miao Mouse Battery Monitor
+# miaobat
 
 Fast, lightweight battery monitor for Angry Miao INFINITY 8K Mouse with support for both mouse and spare battery (in charging dock).
 
