@@ -1,0 +1,56 @@
+# Compiled binary
+read_battery
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Build outputs
+build/
+dist/
+out/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+core
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Logs
+*.log

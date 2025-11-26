@@ -1,0 +1,7 @@
+# udev rule to grant access to Angry Miao INFINITY 8K MOUSE
+# This allows non-root users to read battery information
+# Install with: sudo cp 99-angry-miao-mouse.rules /etc/udev/rules.d/
+# Then run: sudo udevadm control --reload-rules && sudo udevadm trigger
+
+# Angry Miao INFINITY 8K MOUSE (VID: 0x3151, PID: 0x5007)
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="3151", ATTRS{idProduct}=="5007", MODE="0666", TAG+="uaccess"
