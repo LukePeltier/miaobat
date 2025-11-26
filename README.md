@@ -8,7 +8,6 @@ Fast, lightweight battery monitor for Angry Miao INFINITY 8K Mouse with support 
 - **<100ms execution time** - Fast polling
 - **Dual battery support** - Monitor both mouse and spare battery
 - **Direct hidraw access** - Uses Linux kernel HID interface via ioctl
-- **Waybar integration** - Ready-to-use status bar module
 
 ## Installation
 
@@ -90,10 +89,8 @@ The HID report contains battery data at these byte positions:
 
 - `read_battery.c` - Main C source code
 - `Makefile` - Build configuration
-- `read_battery` - Compiled binary (after `make`)
-- `waybar-mouse-battery.sh` - Waybar wrapper script
+- `miaobat` - Compiled binary (after `make`)
 - `99-angry-miao-mouse.rules` - udev rule for permissions
-- `waybar-config-example.json` - Example waybar configuration
 
 ## Troubleshooting
 
@@ -133,7 +130,6 @@ sudo make install
 
 This installs to `/usr/local/bin/read_battery`.
 
-Then update `waybar-mouse-battery.sh` to use `read_battery` instead of the full path.
 
 ## Uninstall
 
