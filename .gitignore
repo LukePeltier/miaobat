@@ -60,4 +60,4 @@ dkms.conf
 
 # Custom
 # Compiled binary
-read_battery
+miaobat

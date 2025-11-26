@@ -2,7 +2,7 @@
 
 CC = gcc
 CFLAGS = -O2 -Wall -Wextra
-TARGET = read_battery
+TARGET = miaobat
 SOURCE = src/read_battery.c
 PREFIX ?= /usr/local
 
